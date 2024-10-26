@@ -8,7 +8,6 @@ public class Login extends Base {
     public Login(){
         super();
         PageFactory.initElements(driver(),this);
-
     }
 
     public void login() {
